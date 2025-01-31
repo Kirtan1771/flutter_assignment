@@ -14,3 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+For deployment:
+git init
+git commit -m "Your deploy name"
+git branch -M origin gh-pages
+git remote add origin "Your url"
+git push -u -f origin gh-pages  //Force pushing to gh-pages
